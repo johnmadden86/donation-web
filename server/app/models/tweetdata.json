@@ -1,0 +1,20 @@
+{
+  "tweets": {
+    "_model": "Tweet",
+    "one": {
+      "text": "my first tweet",
+      "date": "2017-09-14",
+      "author": "this"
+    },
+    "two": {
+      "text": "my second tweet",
+      "date": "2017-08-13",
+      "author": "59fcfe0a7f261b0dbc5b44e7"
+    },
+    "three": {
+      "text": "my third tweet",
+      "date": "2017-07-12",
+      "author": "59fcfa90e1f44667841605cd"
+    }
+  }
+}

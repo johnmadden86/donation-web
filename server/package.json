@@ -1,0 +1,35 @@
+{
+  "name": "my-tweet-web",
+  "version": "1.0.0",
+  "description": "an application to host donations for candidates",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "boom": "^6.0.0",
+    "handlebars": "^4.0.11",
+    "hapi": "^16.6.2",
+    "hapi-auth-cookie": "^7.0.0",
+    "hapi-auth-jwt2": "^7.3.0",
+    "hapi-cors-headers": "^1.0.3",
+    "inert": "^4.2.1",
+    "joi": "^11.4.0",
+    "jsonwebtoken": "^8.1.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.13.0",
+    "mongoose-seeder": "^1.2.1",
+    "uuid": "^3.1.0",
+    "vision": "^4.1.1"
+  },
+  "repository": "placeholder",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "sync-request": "^4.1.0"
+  }
+}

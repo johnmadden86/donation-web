@@ -1,0 +1,24 @@
+<template>
+
+  <section class="ui stacked segment">
+    <article class="eight wide column">
+      <table class="ui celled table segment">
+        <thead>
+        <tr>
+          <th>Text</th>
+          <th>Date</th>
+          <th>Author</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr repeat.for="tweet of tweets">
+          <td> ${tweet.text}</td>
+          <td> ${tweet.date}</td>
+          <td> ${tweet.author}</td>
+        </tr>
+        </tbody>
+      </table>
+    </article>
+  </section>
+
+</template>

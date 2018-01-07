@@ -1,0 +1,17 @@
+<template router.bind="router">
+  <section class="ui two column stackable grid basic segment">
+
+    <form submit.trigger="newTweet()" class="ui form four wide column stacked segment">
+
+      <div class="grouped inline fields">
+        <h3>Enter Text </h3>
+        <div class="field">
+          <label>Tweet</label> <input type="text" value.bind="text">
+        </div>
+      </div>
+      <button class="ui blue submit button">Send Tweet</button>
+
+    </form>
+
+  </section>
+</template>

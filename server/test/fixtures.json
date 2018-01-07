@@ -1,0 +1,52 @@
+{
+  "tweetService": "http://localhost:4000",
+  "users": [
+    {
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "password"
+    },
+    {
+      "firstName": "Marge",
+      "lastName": "Simpson",
+      "email": "marge@simpson.com",
+      "password": "special"
+    },
+    {
+      "firstName": "Bart",
+      "lastName": "Simpson",
+      "email": "bart@simpson.com",
+      "password": "hidden"
+    },
+    {
+      "firstName": "Lisa",
+      "lastName": "Simpson",
+      "email": "lisa@simpson.com",
+      "password": "secure"
+    },
+    {
+      "firstName": "Maggie",
+      "lastName": "Simpson",
+      "email": "maggie@simpson.com",
+      "password": "secret"
+    }
+  ],
+  "tweets": [
+    {
+      "text": "my first tweet"
+    },
+    {
+      "text": "my second tweet"
+    },
+    {
+      "text": "my third tweet"
+    },
+    {
+      "text": "my fourth tweet"
+    },
+    {
+      "text": "my fifth tweet"
+    }
+  ]
+}
